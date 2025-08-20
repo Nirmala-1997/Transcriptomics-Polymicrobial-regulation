@@ -15,7 +15,8 @@ This repository contains two main components of the RNA-seq study:
 - Designed for quick exploration and figure generation.
 
 To open in Google Colab:  
-[Open in Colab]((https://colab.research.google.com/github/Nirmala-1997/Transcriptomics-Polymicrobial-regulation/blob/main/GitHub_Copy_RNA_Seq_Visualization.ipynb))
+[Open in Colab]
+https://colab.research.google.com/github/Nirmala-1997/Transcriptomics-Polymicrobial-regulation/blob/main/GitHub_Copy_RNA_Seq_Visualization.ipynb
 
 ---
 
