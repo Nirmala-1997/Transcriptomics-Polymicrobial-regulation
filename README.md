@@ -23,7 +23,7 @@ https://colab.research.google.com/github/Nirmala-1997/Transcriptomics-Polymicrob
 ## 2) RNA-seq Pipeline Script
 **File:** `pipeline.R`
 
-This R script documents the complete RNA-seq workflow:
+This R script documents the complete RNA-seq workflow, following the default, established pipeline (FastQC → fastp → Trinity → RSEM → edgeR):
 
 1. **Quality Control & Preprocessing**  
    - FastQC v0.12.1  
