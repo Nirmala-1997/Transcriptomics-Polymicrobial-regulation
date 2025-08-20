@@ -1,12 +1,17 @@
 ############################################################
 # R Script for RNA-seq QC and Preprocessing
+if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")
+BiocManager::install(c("edgeR","limma","tximport"), ask = FALSE, update = FALSE)
+
 # Step 1: Quality Control (FastQC) and Trimming (fastp)
 ############################################################
 
 # Load libraries for downstream (only needed later, not for system calls now)
 if(!require(edgeR)) install.packages("edgeR", repos="http://cran.us.r-project.org")
 if(!require(tximport)) BiocManager::install("tximport")
-
+library(edgeR)
+library(limma)
+library(tximport)
 # Define paths
 raw_dir <- "raw_data"          # Folder with raw fastq.gz files
 qc_dir <- "QC_reports"         # Folder for FastQC output
@@ -269,3 +274,4 @@ write.table(filtered_hits, file=file.path(blast_dir, "blastp_filtered_50.txt"),
 # - Raw BLAST results: BLAST/blastp_results.txt
 # - Filtered hits (≥50% identity): BLAST/blastp_filtered_50.txt
 ############################################################
+
