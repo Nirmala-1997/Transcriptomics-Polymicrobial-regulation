@@ -49,3 +49,12 @@ This R script documents the complete RNA-seq workflow:
 ---
 
 #############
+## License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute—with attribution.
+
+## Citation
+
+If you use this pipeline in your research or publication, please cite it:
+
+B. Nirmala (2025). RNA-seq QC, Preprocessing, Assembly, and DEG Analysis Pipeline. GitHub repository: https://github.com/Nirmala-1997/Transcriptomics-Polymicrobial-regulation
